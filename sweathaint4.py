@@ -1,64 +1,31 @@
-'''a= int(input("Enter the year:"))
-if (a % 4 == 0 ):
-    print(a,"it is leap year")
+student1=input("Enter the student name:")
+s1_subject1=int(input("Enter student1 mark:"))
+s1_subject2=int(input("Enter student1 mark:"))
+s1_subject3=int(input("Enter stident1 mark:"))
+total_s1=s1_subject1+ s1_subject2+s1_subject3
+avg1=total_s1/3
+print("total = ",total_s1)
+print("avg = ",avg1)
+student2=input("Enter the student name:")
+s2_subject1=int(input("Enter student2 mark:"))
+s2_subject2=int(input("Enter student2 mark:"))
+s2_subject3=int(input("Enter stident2 mark:"))
+total_s2=s2_subject1+ s2_subject2+s2_subject3
+avg2=total_s2/3
+print("total = ",total_s2)
+print("avg = ",avg2)
+student3=input("Enter the student name:")
+s3_subject1=int(input("Enter student2 mark:"))
+s3_subject2=int(input("Enter student2 mark:"))
+s3_subject3=int(input("Enter stident2 mark:"))
+total_s3=s3_subject1+ s3_subject2+s3_subject3
+avg3=total_s3/3
+print("total = ",total_s3)
+print("avg = ",avg3)
+if total_s1 > total_s2 and total_s1 > total_s3:
+    print(student1,"got the greater mark")
+elif total_s2 > total_s3 and total_s2 > total_s1:
+    print(student2,"got the greater mark")
 else:
-    print(a,"it not leap year")
-
-a=int(input("Enter the value:"))
-if a % 2 !=0:
-    print(a,"is even")
-else:
-    print(a,"is odd")
-
-
-
-age=int(input("Age:"))
-if age < 5:
-    print("free for kids")
-elif age >= 5 and age <  15:
-    print("your entry amount is 300")
-elif age >= 15  and age < 35:
-    print("Your entry amount is 400")
-elif age >=35 and age < 60:
-    print("Your entry amount is 500")
-elif age >=60 and age < 80:
-    print("Your entry amount is 600")
-else:
-    print("You are not allowed for the themepark")
-
-age=int(input("Enter the age:"))
-test=input("you are already take the test?(yes/no):")
-if age <18:
-    print("you are under 18")
-elif age >= 18 and test =="yes":
-    print("you are eligible for license")
-elif age >=18 and test=="no":
-    print("You are not eligible for lincense")
-
-mark=int(input("Enter the mark:"))
-attendance=int(input("Enter the attendance percentage:"))
-if mark >=50 and attendance >= 75:
-    print("You are passed with good attendance!")
-elif mark >= 50:
-    print("You are passed but attendaance is low!")
-elif mark <=50:
-    print("you are fail but attendance is good")
-else:
-    print("both is low")
-'''
-
-a=int(input("Enter the mark1:"))
-b=int(input("Enter the mark2:"))
-c=int(input("enter the mark3:"))
-print("person1",a)
-print("person2",b)
-print("person3",c)
-total=a+b+c
-print("total=",total)
-if a >= b and a >= c:
-    print("Person1 is greater")
-elif b >= a and b >= c:
-    print("Person2 is greater")
-else:
-    print("Person3 is greater")
-
+    print(student3,"got the greater mark")
+    
